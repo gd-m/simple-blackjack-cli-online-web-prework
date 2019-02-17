@@ -46,7 +46,7 @@ def hit?(card_total)
   user_input = get_user_input
   if user_input == "h"
     return card_total
-    
+
   elsif user_input == "s"
     new_card = deal_card
     card_total = card_total + new_card
@@ -55,8 +55,8 @@ def hit?(card_total)
   else
     invalid_command
   end
-    
-  
+
+
 end
 
 def invalid_command
